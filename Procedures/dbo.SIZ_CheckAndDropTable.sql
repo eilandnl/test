@@ -17,7 +17,7 @@ BEGIN
 		DECLARE @TableExists BIT
 		       ,@DatabaseNameOK BIT
 			   ,@tmp int
-			   ,@tmpDbName2 varchar(max)
+			   ,@tmpDbName2 varchar(4000)
 
 		SELECT @database = coalesce(@database, db_name())
 		SELECT @table = replace(replace(@table,'[',''),']','')
