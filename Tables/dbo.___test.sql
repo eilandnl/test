@@ -13,7 +13,7 @@ CREATE TABLE [dbo].[___test] (
 		[avonddiensten]               [varchar](max) COLLATE Latin1_General_CI_AS NULL,
 		[middagdienst]                [varchar](max) COLLATE Latin1_General_CI_AS NULL,
 		[middagdiensten]              [varchar](max) COLLATE Latin1_General_CI_AS NULL,
-		[ochtenddienst]               [varchar](max) COLLATE Latin1_General_CI_AS NULL,
+		[ochtenddiens]                [varchar](max) COLLATE Latin1_General_CI_AS NULL,
 		[ochtenddiensten]             [varchar](max) COLLATE Latin1_General_CI_AS NULL,
 		[shifts]                      [varchar](max) COLLATE Latin1_General_CI_AS NULL,
 		[magazijn]                    [varchar](max) COLLATE Latin1_General_CI_AS NULL,
