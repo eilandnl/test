@@ -3,5 +3,5 @@
   <ServerVersion>Sql2017</ServerVersion>
   <ServerName>LT181016\SQLEXPRESS</ServerName>
   <DatabaseName>sizo</DatabaseName>
-  <DatabaseInformation Version="3" />
+  <DatabaseInformation Version="4" />
 </DatabaseSettings>
