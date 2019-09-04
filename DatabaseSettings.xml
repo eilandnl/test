@@ -1,0 +1,7 @@
+<DatabaseSettings>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <ServerVersion>Sql2017</ServerVersion>
+  <ServerName>LT181016\SQLEXPRESS</ServerName>
+  <DatabaseName>sizo</DatabaseName>
+  <DatabaseInformation Version="1" />
+</DatabaseSettings>
