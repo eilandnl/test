@@ -1,3 +1,0 @@
-CREATE SCHEMA [Accelerator]
-	AUTHORIZATION [dbo]
-GO
