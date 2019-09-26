@@ -1,0 +1,16 @@
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [Accelerator].[Color] (
+		[Id]            [int] IDENTITY(1, 1) NOT NULL,
+		[ColorName]     [nvarchar](max) COLLATE Latin1_General_CI_AS NOT NULL,
+		CONSTRAINT [PK_Color_Id]
+		PRIMARY KEY
+		CLUSTERED
+		([Id])
+	ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+ALTER TABLE [Accelerator].[Color] SET (LOCK_ESCALATION = TABLE)
+GO
